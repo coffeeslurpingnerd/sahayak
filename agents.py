@@ -27,7 +27,7 @@ class OFCAgent:
     def compose_welcome_message(self):
         if self.language == "English":
             return (
-                f"Hi {self.username}, I am {CUSTOM_NAME} bot, "
+                f"Hi {self.username}, I am {CUSTOM_NAME}, "
                 "your friendly AI powered bot to answer your queries. "
                 "Please be advised not to take these AI as "
                 "standard/correct information. Always consult with the concerned "
@@ -35,7 +35,7 @@ class OFCAgent:
             )
         elif self.language == "Hindi":
             return (
-                f"नमस्ते {self.username}, मैं {CUSTOM_NAME} बॉट हूँ, "
+                f"नमस्ते {self.username}, मैं {CUSTOM_NAME} हूँ, "
                 "आपके प्रश्नों का उत्तर देने के लिए आपका मित्र ए.आई. पावर्ड बॉट। "
                 "कृपया ध्यान दें कि इन ए.आई. को मानक/सही जानकारी के रूप में न लें। "
                 "संबंधित जानकारी प्राप्त करने के लिए हमेशा संबंधित कर्मचारियों से परामर्श करें।"
