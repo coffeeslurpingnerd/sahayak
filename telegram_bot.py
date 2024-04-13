@@ -34,7 +34,7 @@ set_language - To choose language of your choice
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN_KEY")
 uuid_number = os.getenv("UUID_NUMBER")
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=6419212995:AAFoBTLzF3kTztXcsxwfMCq4j_9pbQUUtMI)
 CUSTOM_NAME = os.getenv("CUSTOM_NAME")
 
 try:
